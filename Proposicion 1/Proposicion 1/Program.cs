@@ -15,10 +15,10 @@ namespace Proposicion_1
 {
     static void Main(string[] args)
     {
-        // DESAFIO 1: EL VALIDADOR
+        // Validar Clave
 			Console.WriteLine("Ejecutando El Primer Desafio");
 			
-			string cadena = "Jhonder;clave123"; 
+			string cadena = "Jhonder;Clave123"; 
 			string [] partes = cadena.Split(';');
 			string clave = partes[1];
 			
@@ -31,7 +31,7 @@ namespace Proposicion_1
 			}
 			
 			
-			// DESAFIO 2: EL CLONADOR
+			// Clonar Imagen
 			Console.WriteLine("Copiando La Foto...");
 			
 			if (File.Exists("avatar.jpg"))
@@ -42,7 +42,6 @@ namespace Proposicion_1
 				byte [] buffer = new byte[1024];
 				int leido;
 				
-				// Este bucle copia byte a byte
 				while ((leido = origen.Read(buffer, 0, buffer.Length)) > 0)
 				{
 					destino.Write(buffer, 0, leido);
@@ -54,7 +53,7 @@ namespace Proposicion_1
 			}
 			
 			
-			// DESAFIO 3: EL BUSCADOR DE ARCHIVOS
+			// Buscar y Borrar Archivos
 			Console.WriteLine("Borrando Archivos Pesados");
 			
 			string carpetaActual = Directory.GetCurrentDirectory();
@@ -64,10 +63,8 @@ namespace Proposicion_1
 			{
 				FileInfo info = new FileInfo(archivo);
 				
-				// 5120 es el numero de bytes en 5KB
 				if (info.Length > 5120)
 				{
-					// IMPORTANTE: No borrar el ejecutable ni la imagen original
 					if (info.Name != "Proposicion 1.exe" && info.Name != "avatar.jpg")
 					{
 						info.Delete();
@@ -76,8 +73,8 @@ namespace Proposicion_1
 				}
 			}
 			
-			Console.WriteLine("Ya Termino Todo El Proceso");
-			Console.ReadLine(); // Para que no se cierre la ventana
+			Console.WriteLine("Ya Se Terminaron Todos Los Procesos");
+			Console.ReadLine();
     	}
 	}
 }
