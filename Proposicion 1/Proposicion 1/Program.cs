@@ -1,6 +1,6 @@
 ﻿/*
  * Creado por SharpDevelop.
- * Usuario: Jhonder Abreu
+ * Usuario: Jhonder Abreu 30529335 
  * Fecha: 18/4/2026
  * Hora: 2:50 p. m.
  * 
