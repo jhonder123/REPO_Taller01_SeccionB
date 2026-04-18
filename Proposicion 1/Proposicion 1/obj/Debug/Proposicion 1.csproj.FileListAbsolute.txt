@@ -1,0 +1,6 @@
+C:\Users\OPTIPLEX 5050\Desktop\TallerSeccioB\Proposicion 1\Proposicion 1\obj\Debug\Proposicion 1.csprojResolveAssemblyReference.cache
+C:\Users\OPTIPLEX 5050\Desktop\TallerSeccioB\Proposicion 1\Proposicion 1\bin\Debug\Proposicion 1.exe.config
+C:\Users\OPTIPLEX 5050\Desktop\TallerSeccioB\Proposicion 1\Proposicion 1\bin\Debug\Proposicion 1.exe
+C:\Users\OPTIPLEX 5050\Desktop\TallerSeccioB\Proposicion 1\Proposicion 1\bin\Debug\Proposicion 1.pdb
+C:\Users\OPTIPLEX 5050\Desktop\TallerSeccioB\Proposicion 1\Proposicion 1\obj\Debug\Proposicion 1.exe
+C:\Users\OPTIPLEX 5050\Desktop\TallerSeccioB\Proposicion 1\Proposicion 1\obj\Debug\Proposicion 1.pdb
